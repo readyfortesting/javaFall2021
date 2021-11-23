@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HangiSayiBuyukBulma {
+public class _2SayidanBuyukOlaniBulma {
 
 	public static void main(String[] args) {
 		
@@ -26,6 +26,5 @@ public class HangiSayiBuyukBulma {
 		}
 		
 
-	}
-
+	} 
 }
