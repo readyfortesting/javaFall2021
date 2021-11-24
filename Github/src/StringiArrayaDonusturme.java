@@ -3,18 +3,14 @@ public class StringiArrayaDonusturme {
 
 	public static void main(String[] args) {
 
-     String languages="English,Turkish,German,French,Russian";
+     String metin = "Bugun de gunlerden. Cumadir Cuma. Yar hamama gitme. Kinani yuma. Ben seni sevmisim. Ellere deme.";
      
-     String[] array=languages.split(",");
-
-   System.out.println(array[0]);     
-   System.out.println(array[1]);     
-   System.out.println(array[2]);     
-   System.out.println(array[3]);     
-   System.out.println(array[4]);     
-    
-   
-   System.out.println(array.length); // 5
+  
+     String[] cumleler=metin.split("\\."); // TERS SLASH \\ GORMEZDEN GELME-IGNORE-
+     System.out.println(cumleler.length);
+     System.out.println(cumleler[0]);
+     System.out.println(cumleler[1]);
+     System.out.println(cumleler[2]);
    
    
 	}
