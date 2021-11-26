@@ -6,6 +6,7 @@ public class faktöriyel {
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Lutfen faktoriyeli alinacak sayiyi giriniz");
+		
 		int sayi,sonuc=1;
 		sayi=scan.nextInt();
 
